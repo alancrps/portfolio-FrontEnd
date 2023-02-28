@@ -1,0 +1,149 @@
+#skills {
+    background-color: #314321;
+
+}
+#skills-title{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: #86c232;
+}
+.progress-icon {
+    color: #86c232;
+    font-size: 30px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.bar-title {
+    color: #c6c9cc;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.bar-title span {
+    float: right;
+    padding-bottom: 4px;
+}
+
+.bar {
+    height: 6px;
+    background: black;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.row ul li {
+    padding: 10px 30px;
+    list-style: none;
+}
+
+.bar span {
+    height: 6px;
+    float: left;
+    border-radius: 5px;
+}
+
+.html-bar {
+    background: #86c232;
+    width: 80%;
+    animation: html-bar 3s;
+}
+
+@keyframes html-bar {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+.css-bar {
+    background: #86c232;
+    width: 80%;
+    animation: css-bar 3s;
+}
+
+@keyframes css-bar {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+.js-bar {
+    background: #86c232;
+    width: 35%;
+    animation: js-bar 3s;
+}
+
+@keyframes js-bar {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 35%;
+    }
+}
+
+.english-bar {
+    background: #86c232;
+    width: 70%;
+    animation: english-bar 3s;
+}
+
+@keyframes english-bar {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+.angular-bar {
+    background: #86c232;
+    width: 35%;
+    animation: angular-bar 3s;
+}
+
+@keyframes angular-bar {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 35%;
+    }
+}
+
+.java-bar {
+    background: #86c232;
+    width: 50%;
+    animation: java-bar 3s;
+}
+
+@keyframes java-bar {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+
+.line {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 200px;
+    height: 2px;
+    background-color: #86c232;
+    display: inline-block;
+}

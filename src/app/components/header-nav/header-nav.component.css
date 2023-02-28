@@ -1,0 +1,75 @@
+
+.navbar {
+    background: #222629;
+    /* background: rgb(5, 20, 63); */
+    /* background: linear-gradient(90deg, rgba(5, 20, 63, 1) 0%, rgba(4, 84, 136, 1) 52%, rgba(5, 20, 63, 1) 100%); */
+}
+
+#hamb {
+    cursor: pointer;
+    color: #86c232;
+    font-size: 26px;
+}
+
+.menu-bar .navbar-toggler {
+    padding-right: 20px;
+    outline: none;
+    border: none;
+}
+.navbar-brand img {
+    width: 140px;
+    height: 90px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.nav-item {
+    margin: 0 10px;
+    text-align: center;
+    width: 40px;
+    font-size: 28px;
+    border-bottom: 1px solid #86c232;
+}
+
+.nav-item:hover{
+    border-bottom: 1px solid #fff;
+}
+.social-icon {
+    color: #86c232;
+}
+.social-icon:hover {
+    color: #fff;
+}
+
+.navbar-nav {
+    text-align: right;
+    margin: 20px;
+}
+
+#buttonLogin {
+    margin-left: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    font-size: 1.4rem;
+    
+}
+
+.btnLogin{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    border: #86c232 0.125em solid;
+    padding: 0.05em 0.50em;
+    border-radius: 1em;
+    background: #86c232;
+}
+
+.btnLogin:hover{
+    color: #86c232;
+    cursor: pointer;
+    text-decoration: none;
+    border: #86c232 0.125em solid;
+    padding: 0.05em 0.50em;
+    border-radius: 1em;
+    background: #fff;
+}

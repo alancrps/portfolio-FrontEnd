@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+/* titles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+/* text */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Azeret+Mono:400|Roboto+Condensed:400');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Azeret Mono', monospace;
+    font-weight: 400;
+    line-height: 1.50;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
+}

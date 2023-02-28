@@ -1,0 +1,32 @@
+#proyects{
+    background-color: #283919;
+    padding-bottom: 50px;
+}
+#proyects-title{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: #86c232;
+}
+
+.contenedor{
+    width: auto;
+}
+
+.textoProyecto, .imagenProyecto{
+    padding: 20px;
+    display: inline-block;
+    text-align: justify;
+}
+
+.imgProyect{
+    box-shadow: 10px 10px 10px #000000;
+}
+
+.tituloDeProyecto {
+    padding-bottom: 20px;
+    color: #61892f;
+}
+
+p{
+    color: #9c9ea0;
+}
